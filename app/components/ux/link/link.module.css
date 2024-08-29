@@ -1,0 +1,28 @@
+.link {
+  padding: 13.5px 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  font-size: 16px;
+  font-family: Raleway;
+  margin: 20px;
+}
+.link > img {
+  margin-right: 3.5px;
+}
+.common {
+  color: black;
+  background: #f9faff;
+}
+
+.active {
+  color: white;
+  background: #4900e3;
+}
+.empty {
+  border: 1px solid #4900e3;
+  background: white;
+  color: #4900e3;
+}
